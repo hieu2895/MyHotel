@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/err"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:text="Không được bỏ trống dữ liệu"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btnYes"
+            android:layout_height="wrap_content"
+            android:text="Đồng ý" />
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btnNo"
+            android:layout_height="wrap_content"
+            android:text="Hủy" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/backgroud"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:paddingTop="50dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:id="@+id/tvInfor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn chưa đặt phòng!!!"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Tên khách sạn:"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:id="@+id/nameInfor"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Địa chỉ:"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:id="@+id/addInfor"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Ngày nhận phòng:"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:id="@+id/DateInInfor"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Ngày trả phòng:"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:id="@+id/DateOutInfor"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Số lượng phòng:"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:id="@+id/quantityInfor"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Tổng tiền:"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:id="@+id/totalInfor"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGoogleMapInfor"
+        android:text="Xem trên Google Map"
+        android:background="@drawable/background"
+        android:textColor="#fff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

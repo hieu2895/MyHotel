@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyHotel</string>
+    <string name="facebook_app_id">477908259209287</string>
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
+    <string name="google_maps_key">AIzaSyA77a2AcrYwF1-srsOr8LkhX_YuzDDGTaU</string>
+</resources>

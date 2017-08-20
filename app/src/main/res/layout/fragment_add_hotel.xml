@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_add_hotel"
+    android:paddingBottom="16dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="10dp"
+    android:paddingTop="16dp"
+    android:background="@color/backgroud">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgHotel"
+                android:layout_width="250dp"
+                android:layout_height="170dp"
+                android:src="@drawable/icon_image"/>
+            <Button
+                android:id="@+id/btnChooseHotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose"
+                android:background="@drawable/background"
+                android:textColor="#ffff"
+                android:layout_marginTop="60dp"
+                android:textSize="10dp"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@color/backgroud"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/edtID"
+                    android:hint="Mã số thuế:"
+                    android:background="@drawable/bg_et_search"
+                    android:layout_width="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:textSize="10dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/edtNameHotel"
+                    android:hint="Name"
+                    android:background="@drawable/bg_et_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="10dp"
+                    android:layout_margin="5dp"
+                    android:textSize="10dp"
+                    android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Thành phố:"
+                    android:textColor="#000"/>
+                <Spinner
+                    android:id="@+id/spinnerCity"
+                    android:background="@drawable/bg_et_search"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="40dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Quận/Huyện:"
+                    android:textColor="#000"/>
+                <Spinner
+                    android:id="@+id/spinnerDistrict"
+                    android:background="@drawable/bg_et_search"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+            <EditText
+                android:id="@+id/edtAddress"
+                android:hint="Đường - Phường/Xã"
+                android:background="@drawable/bg_et_search"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:layout_margin="5dp"
+                android:textSize="10dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/edtCost"
+                android:hint="Cost"
+                android:background="@drawable/bg_et_search"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:layout_margin="5dp"
+                android:textSize="10dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/edtDetail"
+                android:hint="Detail"
+                android:background="@drawable/bg_et_search"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:layout_margin="5dp"
+                android:textSize="10dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:text="UPDATE"
+            android:background="@drawable/background"
+            android:textColor="#ffff"
+            android:layout_marginLeft="30dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnAdd"
+            android:text="ADD"
+            android:background="@drawable/background"
+            android:textColor="#ffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnDelete"
+            android:text="DELETE"
+            android:background="@drawable/background"
+            android:textColor="#ffff"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>

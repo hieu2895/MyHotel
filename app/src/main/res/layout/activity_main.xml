@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_findmyhotel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <include layout="@layout/mytoolbar"></include>
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/hotels" />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:textSize="18dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#000"/>
+
+            <EditText
+                android:id="@+id/edtUser"
+                android:layout_width="240dp"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/background"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:textSize="18dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#000"/>
+
+            <EditText
+                android:id="@+id/edtPass"
+                android:layout_width="240dp"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:inputType="textPassword"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/background"/>
+        </LinearLayout>
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_buttonFB"
+            android:layout_width="240dp"
+            android:layout_marginLeft="35dp"
+            android:height="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Login"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background"
+                android:textColor="#FFFFFF"/>
+            <Button
+                android:id="@+id/btnRegisterMain"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Register"
+                android:background="@drawable/background"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSkip"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background"
+            android:text="Skip"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+</ScrollView>

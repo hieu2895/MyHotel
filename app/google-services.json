@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "94593114677",
+    "firebase_url": "https://myhotel-874af.firebaseio.com",
+    "project_id": "myhotel-874af",
+    "storage_bucket": "myhotel-874af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94593114677:android:de683d2e602ee9a6",
+        "android_client_info": {
+          "package_name": "com.example.hieu.myhotel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94593114677-frqkq5gfgon3fn1vqjrodi8a38t65dec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hieu.myhotel",
+            "certificate_hash": "f9ce49f8c73e572047154c624205ea181776e381"
+          }
+        },
+        {
+          "client_id": "94593114677-fnqb3405ggf97fn4inqouk9642ecfijs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQEmHaA9mvWOXDwIoVZQ74cv23SHHwUqk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94593114677-fnqb3405ggf97fn4inqouk9642ecfijs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
